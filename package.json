@@ -1,0 +1,25 @@
+{
+  "name": "alx-frontend-javascript",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "Darin Gamaleldin",
+  "license": "ISC"
+}
